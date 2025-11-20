@@ -1,5 +1,8 @@
 import os
 import shutil
+from datetime import datetime
+import tkinter as tk
+from tkinter import filedialog, messagebox
 
 # Step 1: Define file type categories
 file_types = {
@@ -10,13 +13,13 @@ file_types = {
     "Archives": [".zip", ".rar", ".tar", ".gz"],
 }
 
-# Step 2: Function to create folder if not exist
+# Step 2: Create folder if it doesn't exist
 def create_folder(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
         print(f"Created folder: {folder_path}")
 
-# Step 3: Function to handle duplicate file names
+# Step 3: Handle duplicate filenames
 def get_unique_filename(folder, filename):
     base, ext = os.path.splitext(filename)
     counter = 1
@@ -26,16 +29,29 @@ def get_unique_filename(folder, filename):
         counter += 1
     return new_name
 
-# Step 4: Main function to organize files
+# Step 4: Log file movements
+def log_file_move(original_path, new_path):
+    with open("log.txt", "a") as log_file:
+        log_file.write(f"{datetime.now()} - Moved: {original_path} -> {new_path}\n")
+
+# Step 5: Remove empty folders
+def remove_empty_folders(folder_path):
+    for root, dirs, files in os.walk(folder_path, topdown=False):
+        for d in dirs:
+            dir_path = os.path.join(root, d)
+            if not os.listdir(dir_path):
+                os.rmdir(dir_path)
+                print(f"Removed empty folder: {dir_path}")
+                with open("log.txt", "a") as log_file:
+                    log_file.write(f"{datetime.now()} - Removed empty folder: {dir_path}\n")
+
+# Step 6: Organize files
 def organize_files(folder_path):
-    # Step 4a: Create folder if missing
     create_folder(folder_path)
 
-    # Step 4b: Loop through files
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
 
-        # Skip directories
         if os.path.isdir(file_path):
             continue
 
@@ -44,28 +60,33 @@ def organize_files(folder_path):
 
         moved = False
 
-        # Check categories
         for category, extensions in file_types.items():
             if ext in extensions:
                 category_path = os.path.join(folder_path, category)
                 create_folder(category_path)
 
                 new_filename = get_unique_filename(category_path, filename)
-                shutil.move(file_path, os.path.join(category_path, new_filename))
+                new_path = os.path.join(category_path, new_filename)
+                shutil.move(file_path, new_path)
                 print(f"Moved {filename} → {category}/{new_filename}")
+                log_file_move(file_path, new_path)
                 moved = True
                 break
 
-        # If file did not match any category
         if not moved:
             others_path = os.path.join(folder_path, "Others")
             create_folder(others_path)
 
             new_filename = get_unique_filename(others_path, filename)
-            shutil.move(file_path, os.path.join(others_path, new_filename))
+            new_path = os.path.join(others_path, new_filename)
+            shutil.move(file_path, new_path)
             print(f"Moved {filename} → Others/{new_filename}")
+            log_file_move(file_path, new_path)
 
-# Step 5: Run the organizer
+    # Remove empty folders after organizing
+    remove_empty_folders(folder_path)
+
+# Step 7: Run the organizer
 if __name__ == "__main__":
     folder_to_organize = "files"  # Folder containing files to organize
     organize_files(folder_to_organize)

@@ -1,0 +1,48 @@
+2025-11-20 21:32:51.118378 - Moved: files\itachi-shillouette-in-front-of-the-red-moon.3840x2160.mp4 -> files\Videos\itachi-shillouette-in-front-of-the-red-moon.3840x2160.mp4
+2025-11-20 21:32:51.119075 - Moved: files\SpotiDownloader.com - Universe - Drive Me To Juliet.mp3 -> files\Audio\SpotiDownloader.com - Universe - Drive Me To Juliet.mp3
+2025-11-20 21:32:51.119987 - Moved: files\SpotifySetup.exe -> files\Others\SpotifySetup.exe
+2025-11-20 21:37:31.188115 - Moved: C:/Users/Mang Kelogs/Downloads/koreen\Cover of tagu-taguan by koreen, geo.jpg -> C:/Users/Mang Kelogs/Downloads/koreen\Images\Cover of tagu-taguan by koreen, geo.jpg
+2025-11-20 21:37:31.190520 - Moved: C:/Users/Mang Kelogs/Downloads/koreen\download.png -> C:/Users/Mang Kelogs/Downloads/koreen\Images\download.png
+2025-11-20 21:37:33.341755 - Moved: C:/Users/Mang Kelogs/Downloads/koreen\SnapInsta.to_566628828_18043555670692763_1826682732859254748_n.jpg -> C:/Users/Mang Kelogs/Downloads/koreen\Images\SnapInsta.to_566628828_18043555670692763_1826682732859254748_n.jpg
+2025-11-20 21:37:33.342952 - Moved: C:/Users/Mang Kelogs/Downloads/koreen\SnapInsta.to_568134674_18043555679692763_5656410993932583201_n.jpg -> C:/Users/Mang Kelogs/Downloads/koreen\Images\SnapInsta.to_568134674_18043555679692763_5656410993932583201_n.jpg
+2025-11-20 21:37:33.344137 - Moved: C:/Users/Mang Kelogs/Downloads/koreen\SnapInsta.to_568398490_18043555697692763_3220729943747301322_n.jpg -> C:/Users/Mang Kelogs/Downloads/koreen\Images\SnapInsta.to_568398490_18043555697692763_3220729943747301322_n.jpg
+2025-11-20 21:37:33.345095 - Moved: C:/Users/Mang Kelogs/Downloads/koreen\SnapInsta.to_572912231_18044380175692763_3588467687954720418_n.jpg -> C:/Users/Mang Kelogs/Downloads/koreen\Images\SnapInsta.to_572912231_18044380175692763_3588467687954720418_n.jpg
+2025-11-20 21:38:05.304202 - Moved: D:/Documents\BG-4.xlsx -> D:/Documents\Documents\BG-4.xlsx
+2025-11-20 21:38:05.304801 - Moved: D:/Documents\BitLocker Recovery Key 65AABDC8-CA25-4C3C-8977-7AC6A63FBC9D.TXT -> D:/Documents\Documents\BitLocker Recovery Key 65AABDC8-CA25-4C3C-8977-7AC6A63FBC9D.TXT
+2025-11-20 21:38:05.305268 - Moved: D:/Documents\Carlo_Panganiban_Coverletter.docx -> D:/Documents\Documents\Carlo_Panganiban_Coverletter.docx
+2025-11-20 21:38:05.305677 - Moved: D:/Documents\Carlo_Panganiban_Resume.docx -> D:/Documents\Documents\Carlo_Panganiban_Resume.docx
+2025-11-20 21:38:05.345078 - Moved: D:/Documents\Command Line Troubleshooting Tools Reference Guide.pdf -> D:/Documents\Documents\Command Line Troubleshooting Tools Reference Guide.pdf
+2025-11-20 21:38:05.345585 - Moved: D:/Documents\Crafting Your Resume.docx -> D:/Documents\Documents\Crafting Your Resume.docx
+2025-11-20 21:38:05.346059 - Moved: D:/Documents\Creating Your Elevator Pitch.docx -> D:/Documents\Documents\Creating Your Elevator Pitch.docx
+2025-11-20 21:38:05.346902 - Moved: D:/Documents\Default.rdp -> D:/Documents\Others\Default.rdp
+2025-11-20 21:38:05.347592 - Moved: D:/Documents\DICT GCC Scholars Commitment Form for General Public.pdf -> D:/Documents\Documents\DICT GCC Scholars Commitment Form for General Public.pdf
+2025-11-20 21:38:05.348909 - Moved: D:/Documents\Installing and uninstalling software using Linux.docx -> D:/Documents\Documents\Installing and uninstalling software using Linux.docx
+2025-11-20 21:38:05.349392 - Moved: D:/Documents\Installing and uninstalling software using Windows CLI.docx -> D:/Documents\Documents\Installing and uninstalling software using Windows CLI.docx
+2025-11-20 21:38:05.350073 - Moved: D:/Documents\musicapp.txt -> D:/Documents\Documents\musicapp.txt
+2025-11-20 21:38:05.351325 - Moved: D:/Documents\OS poweruser.txt -> D:/Documents\Documents\OS poweruser.txt
+2025-11-20 21:38:05.351890 - Moved: D:/Documents\Panganiban, Carlo V.docx -> D:/Documents\Documents\Panganiban, Carlo V.docx
+2025-11-20 21:38:05.352779 - Moved: D:/Documents\Panganiban, Carlo V.pdf -> D:/Documents\Documents\Panganiban, Carlo V.pdf
+2025-11-20 21:38:05.353386 - Moved: D:/Documents\Panganiban_Carlo.pdf -> D:/Documents\Documents\Panganiban_Carlo.pdf
+2025-11-20 21:38:05.354106 - Moved: D:/Documents\Panganiban_Carlo_Coverletter.docx -> D:/Documents\Documents\Panganiban_Carlo_Coverletter.docx
+2025-11-20 21:38:05.354895 - Moved: D:/Documents\Panganiban_Carlo_Coverletter.pdf -> D:/Documents\Documents\Panganiban_Carlo_Coverletter.pdf
+2025-11-20 21:38:05.355403 - Moved: D:/Documents\Panganiban_Carlo_Resume.docx -> D:/Documents\Documents\Panganiban_Carlo_Resume.docx
+2025-11-20 21:38:05.355896 - Moved: D:/Documents\Panganiban_Carlo_Resume.pdf -> D:/Documents\Documents\Panganiban_Carlo_Resume.pdf
+2025-11-20 21:38:05.356576 - Moved: D:/Documents\password.txt -> D:/Documents\Documents\password.txt
+2025-11-20 21:38:05.357069 - Moved: D:/Documents\Philhealthaccount.txt -> D:/Documents\Documents\Philhealthaccount.txt
+2025-11-20 21:38:05.357556 - Moved: D:/Documents\Technical Support Fundamentals.docx -> D:/Documents\Documents\Technical Support Fundamentals.docx
+2025-11-20 21:38:05.358050 - Moved: D:/Documents\Testing Port Connectivity Reference Guide.pdf -> D:/Documents\Documents\Testing Port Connectivity Reference Guide.pdf
+2025-11-20 21:38:05.358543 - Moved: D:/Documents\The Bits & Bytes of Networking.docx -> D:/Documents\Documents\The Bits & Bytes of Networking.docx
+2025-11-20 21:38:05.359032 - Moved: D:/Documents\tinIDReq.pdf -> D:/Documents\Documents\tinIDReq.pdf
+2025-11-20 21:38:05.361531 - Removed empty folder: D:/Documents\IISExpress\Logs
+2025-11-20 21:38:05.361976 - Removed empty folder: D:/Documents\IISExpress\TraceLogFiles
+2025-11-20 21:38:05.363130 - Removed empty folder: D:/Documents\Inventor Server for AutoCAD\Content Center Files\R2021
+2025-11-20 21:38:05.363567 - Removed empty folder: D:/Documents\Inventor Server for AutoCAD\Content Center Files
+2025-11-20 21:38:05.365131 - Removed empty folder: D:/Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets
+2025-11-20 21:38:05.365538 - Removed empty folder: D:/Documents\Visual Studio 2022\Code Snippets\Visual C#
+2025-11-20 21:38:05.365958 - Removed empty folder: D:/Documents\Visual Studio 2022\Code Snippets
+2025-11-20 21:38:05.366753 - Removed empty folder: D:/Documents\Custom Office Templates
+2025-11-20 21:38:05.367238 - Removed empty folder: D:/Documents\Downloads
+2025-11-20 21:38:05.367821 - Removed empty folder: D:/Documents\Inventor Server for AutoCAD
+2025-11-20 21:38:05.397097 - Removed empty folder: D:/Documents\New folder
+2025-11-20 21:38:05.397683 - Removed empty folder: D:/Documents\Visual Studio 2022
+2025-11-20 21:38:05.398045 - Removed empty folder: D:/Documents\WindowsPowerShell
